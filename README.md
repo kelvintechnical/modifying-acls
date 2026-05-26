@@ -1,11 +1,11 @@
 # Lab: Modifying ACLs — `setfacl -m` for named users and groups
 
-**Series:** linux-ops-mastery — RHCSA Permissions, Special Bits & ACLs
-**Subjects covered:** `setfacl -m` mutation syntax, `u:name:perms` and `g:name:perms`, combining multiple rows in one invocation, interaction with `umask` and base mode bits, verifying with `getfacl`, when `chmod` still matters vs when ACL rows dominate for non-owners
-**Career arcs covered:** RHCSA (collaboration directories on shared servers), RHCE (`ansible.posix.acl` mirrors these operations), SRE (break-glass grants without retagging primary groups), DevOps (release artifact folders with per-service readers), AI/MLOps (per-team read ACLs on evaluation metrics shares)
-**Prerequisite:** Labs 47–48 — capable filesystem + ability to read `getfacl`
-**Time Estimate:** 30 to 45 minutes
-**Difficulty arc:** Task 1 sandbox · 2–3 single-row grants · 4–5 combined user+group rows · 6 capstone multi-principal file
+- **Series:** linux-ops-mastery — RHCSA Permissions, Special Bits & ACLs
+- **Subjects covered:** `setfacl -m` mutation syntax, `u:name:perms` and `g:name:perms`, combining multiple rows in one invocation, interaction with `umask` and base mode bits, verifying with `getfacl`, when `chmod` still matters vs when ACL rows dominate for non-owners
+- **Career arcs covered:** RHCSA (collaboration directories on shared servers), RHCE (`ansible.posix.acl` mirrors these operations), SRE (break-glass grants without retagging primary groups), DevOps (release artifact folders with per-service readers), AI/MLOps (per-team read ACLs on evaluation metrics shares)
+- **Prerequisite:** Labs 47–48 — capable filesystem + ability to read `getfacl`
+- **Time Estimate:** 30 to 45 minutes
+- **Difficulty arc:** Task 1 sandbox · 2–3 single-row grants · 4–5 combined user+group rows · 6 capstone multi-principal file
 
 ---
 
